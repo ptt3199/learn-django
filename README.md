@@ -28,9 +28,10 @@ git push -u origin main
 
 `git pull origin main`
 
-`git add .`
+Commit changes
 
-`git commit -m "Merged .gitignore and added project files"`
-
-
-
+``````
+git add .
+git commit -m "Merged .gitignore and added project files"
+git push origin main
+``````
